@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MineLauncher — Скачать</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="scrim"></div>
+
+  <div class="container">
+    <div class="nav">
+      <div class="brand">
+        <span style="font-size:18px">🟦</span>
+        <span>MineLauncher</span>
+        <span class="badge">минимал • blur • моды</span>
+      </div>
+      <div style="display:flex; gap:6px; flex-wrap:wrap">
+        <a href="downloads.html">Скачать</a>
+        <a href="#features">Фичи</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="card hero-left">
+        <div class="h1">Лаунчер Minecraft<br/>с Vanilla / Fabric / Forge</div>
+        <p class="lead">
+          Красивый минимал-лаунчер с фоном и blur. Установка и запуск нужной версии в пару кликов,
+          лог прогресса, память JVM, выбор Java.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="downloads.html">⬇ Скачать для Windows</a>
+          <a class="btn" href="#requirements">⚙ Требования</a>
+          <a class="btn" href="#features">✨ Возможности</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="kv" id="requirements">
+          <div class="item">
+            <div class="k">Java</div>
+            <div class="v">17 / 21 (для новых версий)</div>
+          </div>
+          <div class="item">
+            <div class="k">Поддержка</div>
+            <div class="v">Vanilla • Fabric • Forge</div>
+          </div>
+          <div class="item">
+            <div class="k">Память</div>
+            <div class="v">Xms / Xmx в настройках</div>
+          </div>
+          <div class="item">
+            <div class="k">Платформа</div>
+            <div class="v">Windows (exe)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card hero-right" id="features">
+        <div class="feature">
+          <h3>✨ Установка в один клик</h3>
+          <p>Vanilla + модлоадеры, прогресс и лог скачивания.</p>
+        </div>
+        <div class="feature">
+          <h3>🧠 Умная проверка Java</h3>
+          <p>Подскажет, какая Java нужна выбранной версии.</p>
+        </div>
+        <div class="feature">
+          <h3>🪟 Минимал + blur UI</h3>
+          <p>Фон-картинка, блюр и “glass” карточки.</p>
+        </div>
+        <div class="feature">
+          <h3>🗂 Установленные профили</h3>
+          <p>Показывает уже установленные версии из .minecraft.</p>
+        </div>
+
+        <div class="hr"></div>
+        <div style="padding:0 16px 14px">
+          <div style="color:var(--muted); line-height:1.55; font-size:13px">
+            Примечание: Forge разработчики не приветствуют автоматические установки без доната.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:16px">
+      <div class="card feature">
+        <h3>Версии</h3>
+        <p>Release и Snapshot (опционально), поиск по версии.</p>
+      </div>
+      <div class="card feature">
+        <h3>Настройки</h3>
+        <p>Путь к java.exe, папке Minecraft, память JVM, фон и blur.</p>
+      </div>
+      <div class="card feature">
+        <h3>Логи</h3>
+        <p>Удобно отлаживать: скачивание, установка, запуск.</p>
+      </div>
+    </div>
+
+    <div class="card" style="padding:18px; margin-top:16px" id="faq">
+      <h3 style="margin:0 0 10px">FAQ</h3>
+      <ul class="list">
+        <li><b>Какую Java ставить?</b> Для 1.21+ обычно нужна Java 21. Для 1.18–1.20.4 — Java 17.</li>
+        <li><b>Где выбрать Java?</b> В настройках лаунчера укажи путь к <code>java.exe</code>.</li>
+        <li><b>Файл не запускается?</b> Поставь Microsoft Visual C++ Redistributable 2015–2022.</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <div>© MineLauncher — неофициальный проект.</div>
+      <div>Скачать: <a href="downloads.html" style="color:var(--text)">downloads</a></div>
+    </div>
+  </div>
+</body>
+</html>

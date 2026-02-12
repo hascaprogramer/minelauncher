@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MineLauncher — Downloads</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="scrim"></div>
+
+  <div class="container">
+    <div class="nav">
+      <div class="brand">
+        <span style="font-size:18px">🟦</span>
+        <span>MineLauncher</span>
+        <span class="badge">downloads</span>
+      </div>
+      <div style="display:flex; gap:6px; flex-wrap:wrap">
+        <a href="index.html">Главная</a>
+        <a href="#files">Файлы</a>
+        <a href="#java">Java</a>
+      </div>
+    </div>
+
+    <div class="card" style="padding:22px" id="files">
+      <div class="h1" style="font-size:34px">Скачать MineLauncher</div>
+      <p class="lead" style="margin-top:6px">
+        Выбери сборку. Рекомендуется <b>Windows x64 (onedir zip)</b> — стабильнее.
+      </p>
+
+      <div class="grid" style="grid-template-columns: repeat(2,1fr)">
+        <div class="card feature">
+          <h3>Windows x64 • ZIP (recommended)</h3>
+          <p>Папка с exe внутри. Меньше проблем с DLL и антивирусами.</p>
+          <!-- ЗАМЕНИ ССЫЛКУ НА СВОЙ ФАЙЛ -->
+          <a class="btn primary" href="releases/MineLauncher-1.0.0-win-x64.zip">⬇ Скачать ZIP</a>
+        </div>
+
+        <div class="card feature">
+          <h3>Windows x64 • EXE (onefile)</h3>
+          <p>Один файл, но иногда требует VC++ и может ругаться антивирус.</p>
+          <!-- ЗАМЕНИ ССЫЛКУ НА СВОЙ ФАЙЛ -->
+          <a class="btn" href="releases/MineLauncher-1.0.0-win-x64.exe">⬇ Скачать EXE</a>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="kv">
+        <div class="item">
+          <div class="k">Как запускать</div>
+          <div class="v">распакуй ZIP → MineLauncher.exe</div>
+        </div>
+        <div class="item">
+          <div class="k">Если не запускается</div>
+          <div class="v">поставь VC++ 2015–2022</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="padding:18px; margin-top:16px" id="java">
+      <h3 style="margin:0 0 8px">Java 21</h3>
+      <p class="lead" style="margin:0">
+        Скачай Temurin JDK 21 (Windows x64, MSI) и укажи путь к <code>java.exe</code> в настройках лаунчера.
+      </p>
+      <div class="cta" style="margin-top:12px">
+        <!-- Официальная страница -->
+        <a class="btn primary" href="https://adoptium.net/temurin/releases/?version=21">Открыть страницу Java 21</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>© MineLauncher — неофициальный проект.</div>
+      <div><a href="index.html" style="color:var(--text)">На главную</a></div>
+    </div>
+  </div>
+</body>
+</html>
